@@ -1,0 +1,42 @@
+{
+  "identifier" : "PanicLog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "paniclog_group",
+      "localizations" : [],
+      "name" : "Panic Log Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "paniclog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly frequency chart and coping-effectiveness stats",
+              "displayName" : "Panic Log Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.paniclog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Panic Log Pro Monthly",
+          "subscriptionGroupID" : "paniclog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
